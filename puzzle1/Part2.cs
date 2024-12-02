@@ -12,20 +12,20 @@
                 var line = sr.ReadLine();
                 while (line != null)
                 {
-                    var arr = line.Split(" ");
+                    var arr = line.Split(" ", StringSplitOptions.RemoveEmptyEntries);
                     left.Add(int.Parse(arr[0]));
 
                     var rightValue = int.Parse(arr[^1]);
                     var numberExists = rightCountTable.TryGetValue(rightValue, out var count);
-                    if (!numberExists)
+                    if (numberExists)
                     {
-                        rightCountTable[rightValue] = 1;
+                        count++;
+                        rightCountTable[rightValue] = count;
                         line = sr.ReadLine();
                         continue;
                     }
 
-                    count++;
-                    rightCountTable[rightValue] = count;
+                    rightCountTable[rightValue] = 1;
                     line = sr.ReadLine();
                 }
 

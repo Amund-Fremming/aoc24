@@ -12,7 +12,7 @@
                 var line = sr.ReadLine();
                 while (line != null)
                 {
-                    var arr = line.Split(" ");
+                    var arr = line.Split(" ", StringSplitOptions.RemoveEmptyEntries);
                     left.Add(int.Parse(arr[0]));
                     right.Add(int.Parse(arr[^1]));
                     line = sr.ReadLine();

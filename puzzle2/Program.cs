@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using puzzle2;
+
+Part1.Solve();
+Part2.Solve();
