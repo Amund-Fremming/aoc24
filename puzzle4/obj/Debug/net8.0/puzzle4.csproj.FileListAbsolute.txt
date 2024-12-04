@@ -1,0 +1,16 @@
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle4\bin\Debug\net8.0\puzzle4.exe
+C:\Code\PersonalSandbox\aoc24\puzzle4\bin\Debug\net8.0\puzzle4.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle4\bin\Debug\net8.0\puzzle4.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle4\bin\Debug\net8.0\puzzle4.dll
+C:\Code\PersonalSandbox\aoc24\puzzle4\bin\Debug\net8.0\puzzle4.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.dll
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\refint\puzzle4.dll
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\puzzle4.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle4\obj\Debug\net8.0\ref\puzzle4.dll
+C:\Code\PersonalSandbox\aoc24\puzzle4\bin\Debug\net8.0\PuzzleInput.txt
