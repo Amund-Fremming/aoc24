@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle5\bin\Debug\net8.0\puzzle5.exe
+C:\Code\PersonalSandbox\aoc24\puzzle5\bin\Debug\net8.0\puzzle5.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle5\bin\Debug\net8.0\puzzle5.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle5\bin\Debug\net8.0\puzzle5.dll
+C:\Code\PersonalSandbox\aoc24\puzzle5\bin\Debug\net8.0\puzzle5.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.dll
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\refint\puzzle5.dll
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\puzzle5.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle5\obj\Debug\net8.0\ref\puzzle5.dll

@@ -4,51 +4,39 @@
     {
         public static void Solve()
         {
-            char[][] input = File.ReadAllLines("PuzzleInput.txt")
+            var input = File.ReadAllLines("PuzzleInput.txt")
                 .Select(line => line.ToCharArray())
                 .ToArray();
 
-            var usedMap = new HashSet<(int, int)>();
-
             var sum = 0;
-            for (int i = 1; i < input.Length - 1; i++)
+            for (int row = 1; row < input.Length - 1; row++)
             {
-                for (int j = 1; j < input[i].Length - 1; j++)
+                for (int col = 1; col < input[row].Length - 1; col++)
                 {
-                    if (input[i][j] == 'A')
+                    if (input[row][col] == 'A')
                     {
-                        sum += Match(input, usedMap, (i, j));
+                        sum += CountXMASInShape(input, (row, col));
                     }
                 }
             }
-            Console.WriteLine($"Sum : {sum}");
+            Console.WriteLine($"Total patterns : {sum}");
         }
 
-        public static int Match(char[][] input, HashSet<(int x, int y)> usedMap, (int x, int y) coord)
+        public static int CountXMASInShape(char[][] input, (int row, int col) coord)
         {
             var matches = 0;
 
-            var x = coord.x;
-            var y = coord.y;
+            var row = coord.row;
+            var col = coord.col;
 
-            if (input[x - 1][y - 1] == 'M'
-                && input[x + 1][y + 1] == 'S'
-                && !usedMap.Contains((x - 1, y - 1))
-                && !usedMap.Contains((x + 1, y + 1)))
+            if (input[row - 1][col - 1] == 'M' && input[row + 1][col + 1] == 'S')
             {
                 matches++;
-                // usedMap.Add((x - 1, y - 1));
-                // usedMap.Add((x + 1, y + 1));
             }
 
-            if (input[x + 1][y - 1] == 'M'
-                && input[x - 1][y + 1] == 'S'
-                && !usedMap.Contains((x + 1, y - 1))
-                && !usedMap.Contains((x - 1, y + 1)))
+            if (input[row + 1][col - 1] == 'M' && input[row - 1][col + 1] == 'S')
             {
                 matches++;
-                // usedMap.Add((x + 1, y - 1));
-                //usedMap.Add((x - 1, y + 1));
             }
 
             return matches;

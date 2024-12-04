@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle9\bin\Debug\net8.0\puzzle9.exe
+C:\Code\PersonalSandbox\aoc24\puzzle9\bin\Debug\net8.0\puzzle9.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle9\bin\Debug\net8.0\puzzle9.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle9\bin\Debug\net8.0\puzzle9.dll
+C:\Code\PersonalSandbox\aoc24\puzzle9\bin\Debug\net8.0\puzzle9.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.dll
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\refint\puzzle9.dll
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\ref\puzzle9.dll
