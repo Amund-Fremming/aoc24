@@ -23,29 +23,14 @@
                     bool downRight = forwards && downwards;
                     bool downLeft = backwards && downwards;
 
-                    if (forwards && Traverse(input, xmas, i, j, (0, 1)))
-                        sum++;
-
-                    if (backwards && Traverse(input, xmas, i, j, (0, -1)))
-                        sum++;
-
-                    if (upwards && Traverse(input, xmas, i, j, (-1, 0)))
-                        sum++;
-
-                    if (downwards && Traverse(input, xmas, i, j, (1, 0)))
-                        sum++;
-
-                    if (upLeft && Traverse(input, xmas, i, j, (-1, -1)))
-                        sum++;
-
-                    if (upRight && Traverse(input, xmas, i, j, (-1, 1)))
-                        sum++;
-
-                    if (downRight && Traverse(input, xmas, i, j, (1, 1)))
-                        sum++;
-
-                    if (downLeft && Traverse(input, xmas, i, j, (1, -1)))
-                        sum++;
+                    if (forwards && Traverse(input, xmas, i, j, (0, 1))) sum++;
+                    if (backwards && Traverse(input, xmas, i, j, (0, -1))) sum++;
+                    if (upwards && Traverse(input, xmas, i, j, (-1, 0))) sum++;
+                    if (downwards && Traverse(input, xmas, i, j, (1, 0))) sum++;
+                    if (upLeft && Traverse(input, xmas, i, j, (-1, -1))) sum++;
+                    if (upRight && Traverse(input, xmas, i, j, (-1, 1))) sum++;
+                    if (downRight && Traverse(input, xmas, i, j, (1, 1))) sum++;
+                    if (downLeft && Traverse(input, xmas, i, j, (1, -1))) sum++;
                 }
             }
 

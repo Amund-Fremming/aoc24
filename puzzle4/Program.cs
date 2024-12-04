@@ -1,3 +1,4 @@
 ﻿using puzzle4;
 
-Part1.Solve();
+// Part1.Solve();
+Part2.Solve();
