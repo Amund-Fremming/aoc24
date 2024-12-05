@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle11\bin\Debug\net8.0\puzzle11.exe
+C:\Code\PersonalSandbox\aoc24\puzzle11\bin\Debug\net8.0\puzzle11.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle11\bin\Debug\net8.0\puzzle11.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle11\bin\Debug\net8.0\puzzle11.dll
+C:\Code\PersonalSandbox\aoc24\puzzle11\bin\Debug\net8.0\puzzle11.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.dll
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\refint\puzzle11.dll
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\puzzle11.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle11\obj\Debug\net8.0\ref\puzzle11.dll

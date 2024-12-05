@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle13\bin\Debug\net8.0\puzzle13.exe
+C:\Code\PersonalSandbox\aoc24\puzzle13\bin\Debug\net8.0\puzzle13.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle13\bin\Debug\net8.0\puzzle13.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle13\bin\Debug\net8.0\puzzle13.dll
+C:\Code\PersonalSandbox\aoc24\puzzle13\bin\Debug\net8.0\puzzle13.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.dll
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\refint\puzzle13.dll
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\puzzle13.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle13\obj\Debug\net8.0\ref\puzzle13.dll

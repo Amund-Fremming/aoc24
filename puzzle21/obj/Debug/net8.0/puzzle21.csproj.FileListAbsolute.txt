@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle21\bin\Debug\net8.0\puzzle21.exe
+C:\Code\PersonalSandbox\aoc24\puzzle21\bin\Debug\net8.0\puzzle21.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle21\bin\Debug\net8.0\puzzle21.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle21\bin\Debug\net8.0\puzzle21.dll
+C:\Code\PersonalSandbox\aoc24\puzzle21\bin\Debug\net8.0\puzzle21.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.dll
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\refint\puzzle21.dll
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\puzzle21.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle21\obj\Debug\net8.0\ref\puzzle21.dll

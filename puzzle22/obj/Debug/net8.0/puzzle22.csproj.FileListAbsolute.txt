@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle22\bin\Debug\net8.0\puzzle22.exe
+C:\Code\PersonalSandbox\aoc24\puzzle22\bin\Debug\net8.0\puzzle22.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle22\bin\Debug\net8.0\puzzle22.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle22\bin\Debug\net8.0\puzzle22.dll
+C:\Code\PersonalSandbox\aoc24\puzzle22\bin\Debug\net8.0\puzzle22.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.dll
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\refint\puzzle22.dll
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\puzzle22.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle22\obj\Debug\net8.0\ref\puzzle22.dll

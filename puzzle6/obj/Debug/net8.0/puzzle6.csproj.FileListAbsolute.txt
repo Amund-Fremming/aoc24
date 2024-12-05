@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle6\bin\Debug\net8.0\puzzle6.exe
+C:\Code\PersonalSandbox\aoc24\puzzle6\bin\Debug\net8.0\puzzle6.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle6\bin\Debug\net8.0\puzzle6.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle6\bin\Debug\net8.0\puzzle6.dll
+C:\Code\PersonalSandbox\aoc24\puzzle6\bin\Debug\net8.0\puzzle6.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.dll
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\refint\puzzle6.dll
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\puzzle6.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle6\obj\Debug\net8.0\ref\puzzle6.dll

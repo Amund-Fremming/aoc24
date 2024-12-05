@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle24\bin\Debug\net8.0\puzzle24.exe
+C:\Code\PersonalSandbox\aoc24\puzzle24\bin\Debug\net8.0\puzzle24.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle24\bin\Debug\net8.0\puzzle24.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle24\bin\Debug\net8.0\puzzle24.dll
+C:\Code\PersonalSandbox\aoc24\puzzle24\bin\Debug\net8.0\puzzle24.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.dll
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\refint\puzzle24.dll
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\puzzle24.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle24\obj\Debug\net8.0\ref\puzzle24.dll

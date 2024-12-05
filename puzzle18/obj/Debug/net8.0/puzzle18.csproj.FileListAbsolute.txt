@@ -1,0 +1,15 @@
+C:\Code\PersonalSandbox\aoc24\puzzle18\bin\Debug\net8.0\puzzle18.exe
+C:\Code\PersonalSandbox\aoc24\puzzle18\bin\Debug\net8.0\puzzle18.deps.json
+C:\Code\PersonalSandbox\aoc24\puzzle18\bin\Debug\net8.0\puzzle18.runtimeconfig.json
+C:\Code\PersonalSandbox\aoc24\puzzle18\bin\Debug\net8.0\puzzle18.dll
+C:\Code\PersonalSandbox\aoc24\puzzle18\bin\Debug\net8.0\puzzle18.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.AssemblyInfoInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.AssemblyInfo.cs
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.csproj.CoreCompileInputs.cache
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.sourcelink.json
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.dll
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\refint\puzzle18.dll
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.pdb
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\puzzle18.genruntimeconfig.cache
+C:\Code\PersonalSandbox\aoc24\puzzle18\obj\Debug\net8.0\ref\puzzle18.dll
