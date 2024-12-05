@@ -50,7 +50,6 @@ namespace puzzle5
                 if (line == string.Empty)
                 {
                     rulesReadingFinished = true;
-                    line = reader.ReadLine();
                     continue;
                 }
 
@@ -85,7 +84,7 @@ namespace puzzle5
         {
             foreach (var kvp in rules)
             {
-                Console.Write(kvp.Key + "| ");
+                Console.Write(kvp.Key + "|");
                 foreach (var item in kvp.Value)
                 {
                     Console.Write(item + " ");
