@@ -37,8 +37,8 @@
                 && !usedMap.Contains((x + 1, y + 1)))
             {
                 matches++;
-                // usedMap.Add((x - 1, y - 1));
-                // usedMap.Add((x + 1, y + 1));
+                usedMap.Add((x - 1, y - 1));
+                usedMap.Add((x + 1, y + 1));
             }
 
             if (input[x + 1][y - 1] == 'M'
@@ -47,8 +47,8 @@
                 && !usedMap.Contains((x - 1, y + 1)))
             {
                 matches++;
-                // usedMap.Add((x + 1, y - 1));
-                //usedMap.Add((x - 1, y + 1));
+                usedMap.Add((x + 1, y - 1));
+                usedMap.Add((x - 1, y + 1));
             }
 
             return matches;
