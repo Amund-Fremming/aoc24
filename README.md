@@ -3,8 +3,8 @@
 ## Marks
 
 - ✅ means done
-- ❌ failed to solve
--  means done with help
+- ❌ failed to solve with no help
+- 🔵 means done with help
 - _ (empty) means not tried
 
 # Progress Table
@@ -17,7 +17,7 @@
 | 2   | ✅     | 🔵     |
 | 3   | 🔵     | ❌      |
 | 4   | ✅     | ❌      |
-| 5   | ✅     | ?      |
+| 5   | ✅     | ❌      |
 | 6   | ?      | ?      |
 | 7   | ?      | ?      |
 | 8   | ?      | ?      |
