@@ -2,92 +2,86 @@
 
 namespace puzzle5
 {
-    /* SOL 1
-     * - Samle alle regler i Dictinary
-     * - Iterer over hver oppdatering, hvis vi møter på en regel
-     * => for hver regel, se til at tallet etter er etter i oppdateringen, og at den ikke er før
-     * - Hvis good legg til midterste tallet i sum
-     */
-
-    /* SOL 2
-     * - Samle alle regler i Dictinary
-     * - Iterer over hver oppdatering, legg til dette tallet i hashset,
-     * - hvis vi møter på en regel
-     * => for hver regel, hvis tall nr 2, finnes i hashset feil, iterer forover og at den ikke er før
-     * - Hvis good inkrementer midten
-     */
-
     internal class Part1
     {
         public static void Solve()
         {
             var (rules, updates) = CreateRulesAndUpdates();
-            Print(rules, updates);
+            // Print(rules, updates);
 
-            // sjekk om Extract får ut verdiene fra midten av updates
-
-            // bygg valid rules
-
-            // iterer over
-        }
-
-        public static int ExtractMiddleValue(IList<int> update) => update[(update.Count + 1) / 2 + 1];
-
-        public static bool ValidRules(Dictionary<int, IList<int>> rules, IList<int> update)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static (Dictionary<int, IList<int>> rules, IList<IList<int>> updates) CreateRulesAndUpdates()
-        {
-            Dictionary<int, IList<int>> rules = [];
-            IList<IList<int>> updates = [];
-            using (var reader = new StreamReader("PuzzleInput.txt"))
+            var sum = 0;
+            foreach (var update in updates)
             {
-                var line = reader.ReadLine();
-                var rulesReadingFinished = false;
-                while (line != null)
+                if (ValidRules(rules, update))
                 {
-                    if (line == string.Empty)
-                    {
-                        rulesReadingFinished = true;
-                        line = reader.ReadLine();
-                        continue;
-                    }
+                    sum += ExtractMiddleValue(update);
+                }
+            }
+            Console.WriteLine($"Sum: {sum}");
+        }
 
-                    if (!rulesReadingFinished)
-                    {
-                        var left = int.Parse(string.Concat(line[0], line[1]));
-                        var right = int.Parse(string.Concat(line[3], line[4]));
+        public static int ExtractMiddleValue(IList<int> update) => update[(update.Count - 1) / 2];
 
-                        if (rules.TryGetValue(left, out var ruleList))
-                        {
-                            ruleList.Add(right);
-                            rules[left] = ruleList;
-                        }
-                        else
-                        {
-                            rules.Add(left, [right]);
-                        }
-                    }
-
-                    if (rulesReadingFinished)
-                    {
-                        var updateList = line.Split(",")
-                            .Select(int.Parse)
-                            .ToList();
-
-                        updates.Add(updateList);
-                    }
-
-                    line = reader.ReadLine();
+        public static bool ValidRules(Dictionary<int, HashSet<int>> rules, IList<int> update)
+        {
+            HashSet<int> occurances = [];
+            foreach (var item in update)
+            {
+                if (rules.TryGetValue(item, out var ruleSet) && occurances.Overlaps(ruleSet))
+                {
+                    return false;
                 }
 
-                return (rules, updates);
+                occurances.Add(item);
             }
+
+            return true;
         }
 
-        public static void Print(Dictionary<int, IList<int>> rules, IList<IList<int>> updates)
+        public static (Dictionary<int, HashSet<int>> rules, IList<IList<int>> updates) CreateRulesAndUpdates()
+        {
+            Dictionary<int, HashSet<int>> rules = [];
+            IList<IList<int>> updates = [];
+            using var reader = new StreamReader("PuzzleInput.txt");
+            string line;
+            var rulesReadingFinished = false;
+            while ((line = reader.ReadLine()) != null)
+            {
+                if (line == string.Empty)
+                {
+                    rulesReadingFinished = true;
+                    line = reader.ReadLine();
+                    continue;
+                }
+
+                if (!rulesReadingFinished)
+                {
+                    var split = line.Split('|');
+                    var left = int.Parse(split[0]);
+                    var right = int.Parse(split[1]);
+
+                    if (!rules.ContainsKey(left))
+                    {
+                        rules[left] = [];
+                    }
+
+                    rules[left].Add(right);
+                }
+
+                if (rulesReadingFinished)
+                {
+                    var updateList = line.Split(",")
+                        .Select(int.Parse)
+                        .ToList();
+
+                    updates.Add(updateList);
+                }
+            }
+
+            return (rules, updates);
+        }
+
+        public static void Print(Dictionary<int, HashSet<int>> rules, IList<IList<int>> updates)
         {
             foreach (var kvp in rules)
             {
