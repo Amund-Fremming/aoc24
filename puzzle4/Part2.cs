@@ -32,11 +32,15 @@
             if (input[row - 1][col - 1] == 'M' && input[row + 1][col + 1] == 'S')
             {
                 matches++;
+                usedMap.Add((x - 1, y - 1));
+                usedMap.Add((x + 1, y + 1));
             }
 
             if (input[row + 1][col - 1] == 'M' && input[row - 1][col + 1] == 'S')
             {
                 matches++;
+                usedMap.Add((x + 1, y - 1));
+                usedMap.Add((x - 1, y + 1));
             }
 
             return matches;
