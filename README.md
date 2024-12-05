@@ -1,9 +1,10 @@
 ## REDME
 
 ## Marks
+
 - X means done
 - O means done with help
-- empty means not tried
+- (\_) empty means not tried
 
 ## Completions
 
@@ -17,3 +18,9 @@
 		
 	</tr>
 </table>
+
+1, x x
+2, x o
+3, sjekk
+4, x \_
+5, x ??
