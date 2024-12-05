@@ -2,9 +2,9 @@
 
 ## Marks
 
-- X means done
-- O means done with help
-- (_) empty means not tried
+- ✅ means done
+-  means done with help
+- _ (empty) means not tried
 
 # Progress Table
 
