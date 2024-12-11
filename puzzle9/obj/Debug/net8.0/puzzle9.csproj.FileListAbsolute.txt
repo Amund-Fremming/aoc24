@@ -13,3 +13,4 @@ C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\refint\puzzle9.dll
 C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.pdb
 C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\puzzle9.genruntimeconfig.cache
 C:\Code\PersonalSandbox\aoc24\puzzle9\obj\Debug\net8.0\ref\puzzle9.dll
+C:\Code\PersonalSandbox\aoc24\puzzle9\bin\Debug\net8.0\PuzzleInput.txt
