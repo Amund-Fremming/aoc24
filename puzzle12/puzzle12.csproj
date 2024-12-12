@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="PuzzleInput.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="PuzzleInput.txt" />
+  </ItemGroup>
+	<ItemGroup>
+		<None Update="PuzzleInput.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 </Project>

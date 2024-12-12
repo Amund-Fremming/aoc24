@@ -19,7 +19,6 @@
         private static int[][] GetPuzzleInput()
         {
             var text = File.ReadAllLines("PuzzleInput.txt");
-            int s = int.Parse(text.ElementAt(0).ToString());
             int[][] map = new int[text.Length][];
             var i = 0;
             foreach (var line in text)
@@ -54,6 +53,7 @@
             var (y, x) = startPos;
             if (map[y][x] == 9)
             {
+                usedPositions.Add((y, x));
                 return 1;
             }
 

@@ -8,11 +8,12 @@
 - _ (empty) means not tried
 
 ## If time try
- - Day 9, part 2
+1. Day 11, part 2
+2. Day 9, part 2
 
 ## Progress Table
 
-| Day | Part 1 |
+| Day | Done   |
 |-----|--------|
 | 1   | ✅     |
 | 2   | ✅     |
@@ -23,9 +24,9 @@
 | 7   | ✅     |
 | 8   | _      |
 | 9   | ✅     |
-| 10  | ?      |
-| 11  | ?      |
-| 12  | ?      |
+| 10  | ✅     |
+| 11  | ✅     |
+| 12  | _      |
 | 13  | ?      |
 | 14  | ?      |
 | 15  | ?      |
