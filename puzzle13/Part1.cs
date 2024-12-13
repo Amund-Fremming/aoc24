@@ -6,7 +6,7 @@ namespace puzzle13
     {
         public static void Solve()
         {
-            long totalTokens = 0;
+            ulong totalTokens = 0;
             var machines = GetPuzzleInput();
             foreach (var machine in machines)
             {
@@ -16,9 +16,9 @@ namespace puzzle13
             Console.WriteLine($"Sum: {totalTokens}");
         }
 
-        public static long GetShortestTokens(Machine machine)
+        public static ulong GetShortestTokens(Machine machine)
         {
-            var cache = new Dictionary<(int, int), (int, int)>();
+            var cache = new Dictionary<(int, int), (ulong, ulong)>();
             var (a, b) = TraverseMachine(machine, (0, 0), 0, 0, cache);
             if (a == int.MaxValue && b == int.MaxValue)
                 return 0;
@@ -26,7 +26,7 @@ namespace puzzle13
             return (a * 3 + b * 1);
         }
 
-        public static (int, int) TraverseMachine(Machine machine, (int, int) pos, int aPressed, int bPressed, Dictionary<(int, int), (int, int)> cache)
+        public static (ulong, ulong) TraverseMachine(Machine machine, (int, int) pos, int aPressed, int bPressed, Dictionary<(int, int), (ulong, ulong)> cache)
         {
             if (cache.ContainsKey(pos))
             {
@@ -39,24 +39,14 @@ namespace puzzle13
             }
             if (x == machine.Price.Item1 && machine.Price.Item2 == y)
             {
-                return (aPressed, bPressed);
+                return ((ulong)aPressed, (ulong)bPressed);
             }
             var aNewPos = (x + machine.ButtonA.Item1, y + machine.ButtonA.Item2);
             var bNewPos = (x + machine.ButtonB.Item1, y + machine.ButtonB.Item2);
             var aTraverse = TraverseMachine(machine, aNewPos, aPressed + 1, bPressed, cache);
             var bTraverse = TraverseMachine(machine, bNewPos, aPressed, bPressed + 1, cache);
-            if (aTraverse.Item1 == int.MaxValue)
-            {
-                cache[pos] = bTraverse;
-                return bTraverse;
-            }
-            if (bTraverse.Item1 == int.MaxValue)
-            {
-                cache[pos] = aTraverse;
-                return aTraverse;
-            }
-            long aTokens = aTraverse.Item1 * 1 + aTraverse.Item2 * 3;
-            long bTokens = bTraverse.Item1 * 1 + bTraverse.Item2 * 3;
+            ulong aTokens = aTraverse.Item1 * 3 + aTraverse.Item2 * 1;
+            ulong bTokens = bTraverse.Item1 * 3 + bTraverse.Item2 * 1;
             if (aTokens > bTokens)
             {
                 cache[pos] = bTraverse;
