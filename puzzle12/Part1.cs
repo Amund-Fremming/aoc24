@@ -65,6 +65,7 @@
         {
             return File.ReadAllLines("PuzzleInput.txt")
                 .Select(_ => _.ToCharArray())
+                .Select(_ => _.To)
                 .ToArray();
         }
     }
