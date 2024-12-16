@@ -6,12 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-	<ImportGroup>
+	<ItemGroup>
 		<None Update="PuzzleInput.txt">
-			<CopyToOutputDirectory>
-				PreserveNewest
-			</CopyToOutputDirectory>	
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-	</ImportGroup>
-
+	</ItemGroup>
 </Project>
