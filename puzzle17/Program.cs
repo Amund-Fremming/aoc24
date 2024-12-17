@@ -1,3 +1,3 @@
 ﻿using puzzle17;
 
-Part1.Solve();
+Part1.RunProgram();
