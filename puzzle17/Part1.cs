@@ -10,7 +10,6 @@ namespace puzzle17
         public static int[] _program = [];
 
         public static int _pointer = 0;
-        public static bool _pointerJumpOne = false;
 
         public static void RunProgram()
         {
@@ -20,27 +19,20 @@ namespace puzzle17
             {
                 var opcode = _program[_pointer];
                 OpcodeResolver(opcode);
-                MovePointer();
+                if (opcode == 3 && _A != 0)
+                {
+                    continue;
+                }
+                _pointer += 2;
             }
         }
 
         public static void SetProgram()
         {
-            _A = 729;
+            _A = 27334280;
             _B = 0;
             _C = 0;
-            _program = [0, 1, 5, 4, 3, 0];
-        }
-
-        public static void MovePointer()
-        {
-            if (_pointerJumpOne)
-            {
-                _pointerJumpOne = false;
-                _pointer++;
-                return;
-            }
-            _pointer += 2;
+            _program = [2, 4, 1, 2, 7, 5, 0, 3, 1, 7, 4, 1, 5, 5, 3, 0];
         }
 
         public static int ComboOperandResolver(int value)
@@ -93,7 +85,8 @@ namespace puzzle17
         {
             var value = _program[_pointer + 1];
             var comboOperand = ComboOperandResolver(value);
-            Console.Write((comboOperand % 8) + ", ");
+            var result = comboOperand % 8;
+            Console.Write(result + ",");
         }
 
         private static void Opcode4()
@@ -123,7 +116,6 @@ namespace puzzle17
                 return;
 
             _pointer = _program[_pointer + 1];
-            _pointerJumpOne = true;
         }
 
         private static void Opcode2()

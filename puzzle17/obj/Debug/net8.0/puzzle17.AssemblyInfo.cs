@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("puzzle17")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c7635d73bb8c8ea8869e572b93ee3f4a906ad98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1282231c0ef71e5bd62b0c102e46edd9e63db839")]
 [assembly: System.Reflection.AssemblyProductAttribute("puzzle17")]
 [assembly: System.Reflection.AssemblyTitleAttribute("puzzle17")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
