@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace puzzle17
+﻿namespace puzzle17
 {
     internal class Part1
     {
@@ -62,23 +60,8 @@ namespace puzzle17
 
         private static void Opcode1()
         {
-            string registerBitString = Convert.ToString(_B, 2);
-
-            var value = _program[_pointer + 1];
-            string bitString = Convert.ToString(value, 2);
-
-            int maxBits = Math.Max(bitString.Length, registerBitString.Length);
-            bitString = bitString.PadLeft(maxBits, '0');
-            registerBitString = registerBitString.PadLeft(maxBits, '0');
-
-            StringBuilder sb = new();
-            for (int i = 0; i < bitString.Length; i++)
-            {
-                var bit = bitString[i] == registerBitString[i] ? "0" : "1";
-                sb.Append(bit);
-            }
-            int result = Convert.ToInt32(sb.ToString(), 2);
-            _B = result;
+            var literalOpreand = _program[_pointer + 1];
+            _B = BitwiseXOR(literalOpreand, _B);
         }
 
         private static void Opcode5()
@@ -89,26 +72,7 @@ namespace puzzle17
             Console.Write(result + ",");
         }
 
-        private static void Opcode4()
-        {
-            // Possible bug here: Register B for now cannot be larger than a 3 bit number
-            string bitString = Convert.ToString(_B, 2);
-
-            string registerBitString = Convert.ToString(_C, 2);
-
-            int maxBits = Math.Max(bitString.Length, registerBitString.Length);
-            bitString = bitString.PadLeft(maxBits, '0');
-            registerBitString = registerBitString.PadLeft(maxBits, '0');
-
-            StringBuilder sb = new();
-            for (int i = 0; i < bitString.Length; i++)
-            {
-                var bit = bitString[i] == registerBitString[i] ? "0" : "1";
-                sb.Append(bit);
-            }
-            int result = Convert.ToInt32(sb.ToString(), 2);
-            _B = result;
-        }
+        private static void Opcode4() => _B = BitwiseXOR(_B, _C);
 
         private static void Opcode3()
         {
@@ -130,6 +94,23 @@ namespace puzzle17
             var value = _program[_pointer + 1];
             var comboOperand = ComboOperandResolver(value);
             var result = (int)(_A / Math.Pow(2, comboOperand));
+            return result;
+        }
+
+        private static int BitwiseXOR(int x1, int x2)
+        {
+            string bitString = Convert.ToString(x1, 2);
+            string registerBitString = Convert.ToString(x2, 2);
+
+            int maxBits = Math.Max(bitString.Length, registerBitString.Length);
+
+            bitString = bitString.PadLeft(maxBits, '0');
+            registerBitString = registerBitString.PadLeft(maxBits, '0');
+
+            var str = bitString.Select((value, index) => registerBitString[index] == value ? "0" : "1")
+                .Aggregate("", (sum, next) => sum += next);
+
+            int result = Convert.ToInt32(str, 2);
             return result;
         }
     }
