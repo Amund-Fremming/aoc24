@@ -5,7 +5,7 @@
         public static void Solve()
         {
             var map = GetPuzzleInput(1024, 71);
-            Print(map);
+            // Print(map);
 
             int sum = BFS(map, 0, 0, 70, 70);
             Console.WriteLine($"Sum : {sum}");
@@ -25,12 +25,12 @@
 
         private static char[][] GetPuzzleInput(int bytes, int size)
         {
-            var map = new char[size][]; // mp endres
+            var map = new char[size][];
             for (int i = 0; i < size; i++)
             {
                 map[i] = Enumerable.Range(0, size)
                     .Select(e => '.')
-                    .ToArray(); // Må endres til 70 senere
+                    .ToArray();
             }
 
             string line;
@@ -59,22 +59,18 @@
                 visited[i] = new bool[cols];
             }
 
-            Queue<(int x, int y)> queue = new();
-            Dictionary<(int x, int y), int> distance = new();
-
-            queue.Enqueue((startX, startY));
+            Queue<(int x, int y, int distance)> queue = new();
+            queue.Enqueue((startX, startY, 0));
             visited[startX][startY] = true;
-            distance[(startX, startY)] = 0;
-
             (int, int)[] directions = [(0, 1), (0, -1), (1, 0), (-1, 0)];
 
             while (queue.Count > 0)
             {
-                var (x, y) = queue.Dequeue();
+                var (x, y, distance) = queue.Dequeue();
 
                 if (x == targetX && y == targetY)
                 {
-                    return distance[(x, y)];
+                    return distance;
                 }
 
                 foreach (var dir in directions)
@@ -84,9 +80,8 @@
 
                     if (newX >= 0 && newX < rows && newY >= 0 && newY < cols && !visited[newX][newY] && map[newX][newY] != '#')
                     {
-                        queue.Enqueue((newX, newY));
+                        queue.Enqueue((newX, newY, distance + 1));
                         visited[newX][newY] = true;
-                        distance[(newX, newY)] = distance[(x, y)] + 1;
                     }
                 }
             }
