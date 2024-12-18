@@ -4,10 +4,11 @@
     {
         public static void Solve()
         {
-            var map = GetPuzzleInput(1024, 71);
+            var set = GetPuzzleInput(1024);
             // Print(map);
 
-            int sum = BFS(map, 0, 0, 70, 70);
+            var size = 71;
+            int sum = BFS(set, 70, 70, size);
             Console.WriteLine($"Sum : {sum}");
         }
 
@@ -23,16 +24,9 @@
             }
         }
 
-        private static char[][] GetPuzzleInput(int bytes, int size)
+        private static HashSet<(int, int)> GetPuzzleInput(int bytes)
         {
-            var map = new char[size][];
-            for (int i = 0; i < size; i++)
-            {
-                map[i] = Enumerable.Range(0, size)
-                    .Select(e => '.')
-                    .ToArray();
-            }
-
+            HashSet<(int, int)> set = [];
             string line;
             using var sr = new StreamReader("PuzzleInput.txt");
             var count = 0;
@@ -42,17 +36,16 @@
                         .Select(int.Parse)
                         .ToArray();
 
-                map[ints[1]][ints[0]] = '#';
+                set.Add((ints[0], ints[1]));
                 count++;
             }
 
-            return map;
+            return set;
         }
 
-        private static int BFS(char[][] map, int startX, int startY, int targetX, int targetY)
+        private static int BFS(HashSet<(int, int)> set, int targetX, int targetY, int size)
         {
-            int rows = map.Length;
-            int cols = map[0].Length;
+            int rows = size, cols = size;
             bool[][] visited = new bool[rows][];
             for (int i = 0; i < rows; i++)
             {
@@ -60,8 +53,8 @@
             }
 
             Queue<(int x, int y, int distance)> queue = new();
-            queue.Enqueue((startX, startY, 0));
-            visited[startX][startY] = true;
+            queue.Enqueue((0, 0, 0));
+            visited[0][0] = true;
             (int, int)[] directions = [(0, 1), (0, -1), (1, 0), (-1, 0)];
 
             while (queue.Count > 0)
@@ -78,7 +71,7 @@
                     int newX = x + dir.Item1;
                     int newY = y + dir.Item2;
 
-                    if (newX >= 0 && newX < rows && newY >= 0 && newY < cols && !visited[newX][newY] && map[newX][newY] != '#')
+                    if (newX >= 0 && newX < rows && newY >= 0 && newY < cols && !visited[newX][newY] && !set.Contains((newX, newY)))
                     {
                         queue.Enqueue((newX, newY, distance + 1));
                         visited[newX][newY] = true;
