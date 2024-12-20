@@ -1,17 +1,14 @@
-﻿## REDME
+﻿## README
 
 ## Marks
+- Stopped at day 19, taking vacation
 - This year im only completing part 1s
-- ✅ means done
-- ❌ failed to solve with no help
-- 🔵 means done with help
-- _ (empty) means not tried
+- ✅ = done
+- ❌ = failed
+- 🔵 = done with help
 
-## If time try
-1. Day 11, part 2
-2. Day 9, part 2
 
-## Progress Table
+## Progress 
 
 | Day | Done   |
 |-----|--------|
@@ -33,9 +30,4 @@
 | 16  | 🔵     |
 | 17  | ✅     |
 | 18  | ✅     |
-| 19  | ?      |
-| 20  | ?      |
-| 21  | ?      |
-| 22  | ?      |
-| 23  | ?      |
-| 24  | ?      |
+| 19  | 🔵     |
